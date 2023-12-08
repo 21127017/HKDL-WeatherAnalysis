@@ -1,0 +1,32 @@
+1. What is the most common weather description in New York City?
+- Finding the weather condition that occurs most frequently in the dataset for New York City.
+
+2. What is the correlation between temperature and humidity?
+- Finding if there’s a statistical relationship between temperature and humidity. 
+- Plot the correlation matrix seems like a good option
+
+3. How does the ‘feels like’ temperature vary from the actual temperature?
+- Understand the difference between the actual temperature and the ‘feels like’ temperature.
+- Plot correlation matrix or parallel bar chart might be good
+
+4. How does visibility change with different weather conditions?
+- This question aims to understand how visibility varies under different weather conditions,
+this might include Temperature, Pressure, Humidity, Weather Description, Wind Speed and even Wind Degree.
+- Plot a correlation matrix might be good
+
+5. What is the variability of atmospheric pressure over a certain period?
+- This question seeks to understand the changes in atmospheric pressure over a specific time period.
+- Simple bar/line chart showcasing the value of atmospheric pressure in each specific timestamp?
+
+6. How often does the weather description indicate clear skies in each recorded location? 
+- For each location in the dataset, calculate the frequency of which the skies are clear
+- Simple line chart should be sufficient in showing the frequency for each location
+
+7. How does the minimum and maximum temperature vary throughout the year? 
+- Understand the variation in minimum and maximum temperatures over the course of a year.
+- Might also help understand the climate change as a whole
+- A possible approach is to calculate the difference between the minimum and the maximum and plot that difference on a line chart 
+
+8. What weather conditions are most likely to occur when the temperature is low?
+- When the temperature is low (below a certain threshold), analyze the trend in the current value for other attributes
+=> Make comments if needed
