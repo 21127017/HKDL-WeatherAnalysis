@@ -1,0 +1,12 @@
+1. How does air pressure change with temperature?
+	- Purpose: We're checking if air pressure goes up or down when it gets hotter or colder.
+	- Method: We'll use some math to see if there's a relationship between temperature and air pressure. Does one change when the other does?
+2. Does humidity relate to Weather Description? Can we predict humidity based on the weather?
+	- Purpose: We're exploring if certain types of weather are linked to how humid it feels, and if we can guess humidity from the weather description.
+	- Method: We'll turn words about the weather into numbers and then use those to guess how humid it might be. It's like figuring out if the description (like "rainy" or "sunny") tells us about humidity.
+3. Can we predict Feels Like temperature based on the combination of Temperature, Wind Speed, and Humidity?
+	- Purpose: To explore how different factors contribute to the perceived temperature.
+	- Method: Use linear regression with Feels Like as the dependent variable and Temperature, Wind Speed, and Humidity as independent variables
+4. Can we predict the Weather Description based on the combination of all other attributes?
+	- Purpose: We want to know if we can forecast the type of weather (like "scattered clouds" or "clear sky") by considering all the other factors in our dataset.
+	- Method: We'll use a machine learning approach (classification model). Each row in our dataset becomes a set of inputs (Timestamp, Temperature, Feels Like, Temp Min, Temp Max, Pressure, Humidity, Wind Speed, Wind Degree, Visibility), and the output is the corresponding Weather Description. This helps the model learn patterns in the data, allowing us to make predictions about the Weather Description based on the given conditions.
